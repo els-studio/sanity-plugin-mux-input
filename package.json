@@ -1,6 +1,6 @@
 {
   "name": "@els-studio/sanity-plugin-mux-input",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "description": "An input component that integrates Sanity Studio with Mux video encoding/hosting service.",
   "keywords": [
     "sanity",
@@ -53,6 +53,7 @@
     "watch": "pkg-utils watch --strict"
   },
   "dependencies": {
+    "@els-studio/sanity-plugin-mux-input": "file:.yalc/@els-studio/sanity-plugin-mux-input",
     "@mux/mux-player-react": "^2.6.0",
     "@mux/upchunk": "^3.4.0",
     "@sanity/icons": "^3.0.0",
